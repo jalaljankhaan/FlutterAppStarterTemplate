@@ -1,4 +1,4 @@
-import 'package:portfolio/core/scripts/text_script.dart';
+import 'package:flutterappstartertemplate/core/scripts/text_script.dart';
 
 import '../../domain/models/user_model.dart';
 

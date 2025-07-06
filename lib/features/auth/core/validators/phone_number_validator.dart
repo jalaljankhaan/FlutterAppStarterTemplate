@@ -1,6 +1,6 @@
-import 'package:portfolio/core/states/page_states.dart';
-import 'package:portfolio/core/validator/validator.dart';
-import 'package:portfolio/features/auth/presentation/states/auth_phone_number_states.dart';
+import 'package:flutterappstartertemplate/core/states/page_states.dart';
+import 'package:flutterappstartertemplate/core/validator/validator.dart';
+import 'package:flutterappstartertemplate/features/auth/presentation/states/auth_phone_number_states.dart';
 
 class PhoneNumberValidator implements Validator {
   @override

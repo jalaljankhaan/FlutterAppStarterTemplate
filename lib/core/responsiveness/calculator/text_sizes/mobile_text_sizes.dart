@@ -1,4 +1,4 @@
-import 'package:portfolio/core/responsiveness/calculator/text_sizes/text_size.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/calculator/text_sizes/text_size.dart';
 
 class MobileTextSize implements TextSize {
   @override

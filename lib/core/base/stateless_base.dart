@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/core/responsiveness/calculator/calculator.dart';
-import 'package:portfolio/core/responsiveness/calculator/text_sizes/web_text_sizes.dart';
-import 'package:portfolio/core/responsiveness/widget/responsive_layout.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/calculator/calculator.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/calculator/text_sizes/web_text_sizes.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/widget/responsive_layout.dart';
 
 import '../responsiveness/calculator/gap/mobile_gap.dart';
 import '../responsiveness/calculator/gap/tablet_gap.dart';

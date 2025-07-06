@@ -1,4 +1,4 @@
-import 'package:portfolio/features/auth/data/repository/login_repository.dart';
+import 'package:flutterappstartertemplate/features/auth/data/repository/login_repository.dart';
 
 class IsLoggedInUseCase {
   final LoginRepository _repository;

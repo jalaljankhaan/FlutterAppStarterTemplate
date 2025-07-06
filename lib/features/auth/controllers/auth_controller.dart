@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:portfolio/core/constants/routes.dart';
-import 'package:portfolio/core/states/page_states.dart';
-import 'package:portfolio/features/auth/presentation/states/auth_fail_states.dart';
-import 'package:portfolio/features/auth/presentation/states/auth_success_states.dart';
+import 'package:flutterappstartertemplate/core/constants/routes.dart';
+import 'package:flutterappstartertemplate/core/states/page_states.dart';
+import 'package:flutterappstartertemplate/features/auth/presentation/states/auth_fail_states.dart';
+import 'package:flutterappstartertemplate/features/auth/presentation/states/auth_success_states.dart';
 
 import '../domain/use_cases/login_usecase.dart';
 

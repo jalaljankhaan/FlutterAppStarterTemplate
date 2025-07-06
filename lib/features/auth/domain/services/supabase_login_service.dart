@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:portfolio/core/logger/logger.dart';
-import 'package:portfolio/features/auth/data/dto/user_dto.dart';
-import 'package:portfolio/features/auth/data/services/login_service.dart';
+import 'package:flutterappstartertemplate/core/logger/logger.dart';
+import 'package:flutterappstartertemplate/features/auth/data/dto/user_dto.dart';
+import 'package:flutterappstartertemplate/features/auth/data/services/login_service.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../../../../core/constants/routes.dart';
@@ -21,15 +21,15 @@ class SupabaseLoginServiceImpl implements LoginService {
     final bool isNewUser,
   ) async {
     try {
-      await _supabase.auth.signInWithOtp(
+      await _supabase.auth.signInWithPassword(
         email: email,
-        emailRedirectTo: homeRoute,
-        shouldCreateUser: isNewUser,
+        password: password,
       );
 
       logger.log(
         "Supabase Login Service - loginWithMagicLink() - Link sent to $email",
       );
+
       return true;
     } catch (error) {
       logger.log(

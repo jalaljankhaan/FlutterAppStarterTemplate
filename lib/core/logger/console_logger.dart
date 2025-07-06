@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:portfolio/core/logger/logger.dart';
+import 'package:flutterappstartertemplate/core/logger/logger.dart';
 
 class ConsoleLogger implements Logger {
   @override

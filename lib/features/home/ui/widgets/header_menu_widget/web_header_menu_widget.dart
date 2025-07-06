@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/core/base/stateless_base.dart';
-import 'package:portfolio/core/responsiveness/calculator/calculator.dart';
+import 'package:flutterappstartertemplate/core/base/stateless_base.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/calculator/calculator.dart';
 
 class WebHeaderMenuWidget extends StatelessPageWidget {
   const WebHeaderMenuWidget({super.key});
@@ -16,7 +16,7 @@ class WebHeaderMenuWidget extends StatelessPageWidget {
           children: [
             Spacer(flex: 1),
             Text(
-              "Portfolio",
+              "FlutterAppStarterTemplate",
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontSize: calc.textSize.titleLarge,
                 color: Theme.of(context).primaryColor,

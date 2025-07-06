@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:portfolio/core/logger/console_logger.dart';
-import 'package:portfolio/features/auth/controllers/auth_state_controller.dart';
-import 'package:portfolio/features/auth/core/validators/email_validator.dart';
-import 'package:portfolio/features/auth/domain/services/supabase_login_service.dart';
-import 'package:portfolio/features/auth/domain/use_cases/is_logged_in_usecase.dart';
-import 'package:portfolio/features/auth/domain/use_cases/refresh_access_token_usecase.dart';
-import 'package:portfolio/features/auth/domain/use_cases/login_usecase.dart';
+import 'package:flutterappstartertemplate/core/logger/console_logger.dart';
+import 'package:flutterappstartertemplate/features/auth/controllers/auth_state_controller.dart';
+import 'package:flutterappstartertemplate/features/auth/core/validators/email_validator.dart';
+import 'package:flutterappstartertemplate/features/auth/domain/services/supabase_login_service.dart';
+import 'package:flutterappstartertemplate/features/auth/domain/use_cases/is_logged_in_usecase.dart';
+import 'package:flutterappstartertemplate/features/auth/domain/use_cases/refresh_access_token_usecase.dart';
+import 'package:flutterappstartertemplate/features/auth/domain/use_cases/login_usecase.dart';
 
 import '../../domain/repository/login_repository_impl.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/features/auth/controllers/auth_controller.dart';
+import 'package:flutterappstartertemplate/features/auth/controllers/auth_controller.dart';
 
 class AuthPageWidget extends StatelessWidget {
   final bool isLoginPage;

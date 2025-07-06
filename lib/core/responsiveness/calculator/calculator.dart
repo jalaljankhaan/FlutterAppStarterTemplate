@@ -1,4 +1,4 @@
-import 'package:portfolio/core/responsiveness/enums/device_types.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/enums/device_types.dart';
 
 import 'text_sizes/text_size.dart';
 import 'gap/gap.dart';

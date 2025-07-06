@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/style/colors/colors.dart';
-import 'package:portfolio/style/themes/appbar_themes.dart';
-import 'package:portfolio/style/themes/bottom_sheet_themes.dart';
-import 'package:portfolio/style/themes/button_themes.dart';
-import 'package:portfolio/style/themes/checkbox_themes.dart';
-import 'package:portfolio/style/themes/chip_themes.dart';
-import 'package:portfolio/style/themes/text_field_themes.dart';
-import 'package:portfolio/style/themes/text_themes.dart';
+import 'package:flutterappstartertemplate/style/colors/colors.dart';
+import 'package:flutterappstartertemplate/style/themes/appbar_themes.dart';
+import 'package:flutterappstartertemplate/style/themes/bottom_sheet_themes.dart';
+import 'package:flutterappstartertemplate/style/themes/button_themes.dart';
+import 'package:flutterappstartertemplate/style/themes/checkbox_themes.dart';
+import 'package:flutterappstartertemplate/style/themes/chip_themes.dart';
+import 'package:flutterappstartertemplate/style/themes/text_field_themes.dart';
+import 'package:flutterappstartertemplate/style/themes/text_themes.dart';
 
 // Light ThemeData
 class LightModeThemeData {

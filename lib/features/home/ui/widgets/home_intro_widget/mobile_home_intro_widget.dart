@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/core/responsiveness/calculator/calculator.dart';
-import 'package:portfolio/features/home/ui/widgets/home_intro_widget/home_intro_common_content_widget.dart';
+import 'package:flutterappstartertemplate/core/responsiveness/calculator/calculator.dart';
+import 'package:flutterappstartertemplate/features/home/ui/widgets/home_intro_widget/home_intro_common_content_widget.dart';
 
 import '../../../../../core/base/stateless_base.dart';
 

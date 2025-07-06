@@ -1,7 +1,7 @@
-import 'package:portfolio/core/states/page_states.dart';
-import 'package:portfolio/core/validator/validator.dart';
-import 'package:portfolio/features/auth/data/repository/login_repository.dart';
-import 'package:portfolio/features/auth/presentation/states/auth_email_states.dart';
+import 'package:flutterappstartertemplate/core/states/page_states.dart';
+import 'package:flutterappstartertemplate/core/validator/validator.dart';
+import 'package:flutterappstartertemplate/features/auth/data/repository/login_repository.dart';
+import 'package:flutterappstartertemplate/features/auth/presentation/states/auth_email_states.dart';
 
 class LoginUseCase {
   final Validator _validator;

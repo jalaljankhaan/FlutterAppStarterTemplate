@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/style/colors/colors.dart';
+import 'package:flutterappstartertemplate/style/colors/colors.dart';
 
 // Light Mode Chip Theme
 class LightModeChipTheme {

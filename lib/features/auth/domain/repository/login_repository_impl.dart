@@ -1,9 +1,9 @@
-import 'package:portfolio/core/states/page_states.dart';
-import 'package:portfolio/features/auth/data/dto/user_dto.dart';
-import 'package:portfolio/features/auth/data/repository/login_repository.dart';
-import 'package:portfolio/features/auth/data/services/login_service.dart';
-import 'package:portfolio/features/auth/presentation/states/auth_fail_states.dart';
-import 'package:portfolio/features/auth/presentation/states/auth_success_states.dart';
+import 'package:flutterappstartertemplate/core/states/page_states.dart';
+import 'package:flutterappstartertemplate/features/auth/data/dto/user_dto.dart';
+import 'package:flutterappstartertemplate/features/auth/data/repository/login_repository.dart';
+import 'package:flutterappstartertemplate/features/auth/data/services/login_service.dart';
+import 'package:flutterappstartertemplate/features/auth/presentation/states/auth_fail_states.dart';
+import 'package:flutterappstartertemplate/features/auth/presentation/states/auth_success_states.dart';
 
 import '../models/user_model.dart';
 

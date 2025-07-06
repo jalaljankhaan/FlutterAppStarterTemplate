@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:portfolio/core/states/page_states.dart';
-import 'package:portfolio/features/auth/domain/use_cases/is_logged_in_usecase.dart';
-import 'package:portfolio/features/auth/domain/use_cases/refresh_access_token_usecase.dart';
+import 'package:flutterappstartertemplate/core/states/page_states.dart';
+import 'package:flutterappstartertemplate/features/auth/domain/use_cases/is_logged_in_usecase.dart';
+import 'package:flutterappstartertemplate/features/auth/domain/use_cases/refresh_access_token_usecase.dart';
 
 import '../presentation/states/auth_success_states.dart';
 
